@@ -1,0 +1,130 @@
+.manfaat-container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.manfaat-text-container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    position: relative;
+}
+
+.manfaat-text-header {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 760px;
+}
+
+.manfaat-text-paragraph {
+    width: 983px;
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+}
+
+.manfaat-card-section {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    gap: 54px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.manfaat-card-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 51.65px;
+    position: relative;
+    width: fit-content;
+}
+
+.manfaat-card-frame {
+    align-items: flex-start;
+    display: flex;
+    gap: 140.88px;
+    position: relative;
+    width: fit-content;
+}
+
+.manfaat-card {
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 19.49px;
+    box-shadow: 0.97px 7.8px 58.47px #0000001a;
+    display: flex;
+    flex-direction: column;
+    gap: 24.36px;
+    height: 461.9px;
+    overflow: hidden;
+    padding: 38.98px;
+    position: relative;
+    width: 410.25px;
+}
+
+.heart-outline {
+    height: 370px;
+    left: 200px;
+    position: absolute;
+    top: 320px;
+    width: 370px;
+}
+
+.heart-icon {
+    height: 110px;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+    width: 110px;
+}
+
+.manfaat-card-text {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 20.46px;
+    position: relative;
+}
+
+.manfaat-card-header {
+    align-self: stretch;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Be Vietnam Pro", Helvetica;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 120px;
+    position: relative;
+}
+
+.manfaat-card-paragraph {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.handshake {
+    align-self: stretch;
+    flex: 1;
+    height: 980px;
+    min-width: 396.21px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -515px;
+}

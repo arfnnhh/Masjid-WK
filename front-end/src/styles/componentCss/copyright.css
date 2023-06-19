@@ -1,0 +1,22 @@
+.footer-copyright {
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 66px;
+    min-width: 1440px;
+    position: relative;
+  }
+  
+  .footer-copyright-text {
+    color: var(--tangasroa) ;
+    font-family: var(--font-family-be_vietnam_pro) ;
+    font-size: 18px;
+    font-weight: 490;
+    left: 700px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 594px;
+  }

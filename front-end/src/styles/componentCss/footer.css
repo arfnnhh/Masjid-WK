@@ -1,0 +1,231 @@
+.footer {
+  background-color: rgba(0, 30, 66, 1);
+  height: 519px;
+  min-width: 1440px;
+  position: relative;
+  margin-top: 200px;
+}
+
+.footer-row {
+  align-items: center;
+  display: flex;
+  height: 363px;
+  left: 55px;
+  min-width: 1270px;
+  max-width: 1440px;
+  position: relative;
+  top: 41px;
+}
+
+.footer-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 363px;
+  width: 310px;
+}
+
+.footer-logo {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+  min-width: 310px;
+}
+
+.footer-logo-img {
+  height: 97px;
+  object-fit: cover;
+  width: 97px;
+}
+
+.footer-logo-text {
+  color: white;
+  font-family: "Be Vietnam Pro", Helvetica;
+  font-size: 21.3px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24.1px;
+  margin-top: 1px;
+  min-height: 48px;
+  width: 199px;
+}
+
+.footer-alamat {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 22px;
+  min-height: 77px;
+  margin-top: 22px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.alamat-span:nth-child(1) {
+  color: white;
+  font-family: "Be Vietnaman Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.alamat-span:nth-child(2),
+.alamat-span:nth-child(3) {
+  color: white;
+  font-family: "Be Vietnaman Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.alamat-span:nth-child(1),
+.alamat-span:nth-child(3) {
+  line-height: 16.6px;
+}
+
+.alamat-span:nth-child(2),
+.contact-span:nth-child(2),
+.contact-span:nth-child(1) {
+  line-height: 25.6px;
+}
+
+.footer-alamat-divider {
+  position: absolute;
+  width: 0px;
+  height: 220px;
+  left: 170px;
+  top: 110px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: rotate(90deg);
+}
+
+.footer-contact {
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 19px;
+  min-height: 74px;
+  width: 247px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-alamat-divider-1 {
+  position: absolute;
+  width: 0px;
+  height: 220px;
+  left: 170px;
+  top: 210px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: rotate(90deg);
+}
+
+.footer-social-media-container {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 10px;
+  margin-left: 22px;
+  margin-top: 20px;
+  min-width: 127px;
+}
+
+.footer-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.footer-icon:hover {
+  opacity: 0.3;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-col-1 {
+  gap: 9px;
+  margin-left: 240px;
+  margin-top: 14px;
+  min-height: 327px;
+  width: 254px;
+}
+
+.footer-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content-header {
+  letter-spacing: 0;
+  line-height: 25.6px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.footer-content-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 292px;
+  position: relative;
+  width: 254px;
+}
+
+.footer-content-text {
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  line-height: 28.6px;
+  width: 254px;
+  display: inline-block;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+
+.footer-col-2 {
+  align-self: flex-end;
+  margin-bottom: 5px;
+  margin-left: 640px;
+  min-height: 333px;
+  width: 290px;
+}
+
+.footer-content-text-box {
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  height: 35px;
+  margin-top: 10px;
+  min-width: 288px;
+  padding: 5px 15px;
+}
+
+.footer-content-text-box-large {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  height: 143px;
+  margin-top: 10px;
+  min-width: 288px;
+  padding: 5px 15px;
+}
+
+.footer-content-text-box-text {
+  letter-spacing: 0;
+  line-height: 25.6px;
+  min-height: 26px;
+  min-width: 47px;
+  white-space: nowrap;
+  margin-bottom: 3px;
+}
+

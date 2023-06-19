@@ -1,0 +1,158 @@
+.dana-container {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+  margin-left: 100px;
+}
+
+.dana-inner-container {
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 0.97px 7.8px 58.47px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  justify-content: center;
+  padding: 34px;
+  position: relative;
+  width: 1640px;
+  margin-top: 93px;
+  border-radius: 10px;
+}
+
+.dana-status-frame {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.dana-status-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.total {
+  letter-spacing: 0;
+  line-height: 32.7px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.price {
+  letter-spacing: 0;
+  line-height: 65.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.break-bar {
+  align-self: stretch;
+  background-color: #d9d9d9;
+  height: 1px;
+  min-width: 1640px;
+  position: relative;
+}
+
+.progress-bar-container {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+
+.progress-bar-frame {
+  background-color: var(--bay-of-many);
+  border-radius: 5px;
+  flex: 1;
+  height: 42px;
+  min-width: 964.7px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  background-color: var(--main);
+  border-radius: 5px;
+  height: 42px;
+  width: calc(var(--progress-width) * 100%);
+  transition: width 0.5s ease;
+}
+
+.persen-terpenuhi {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.span-persen {
+  color: var(--main);
+  font-family: var(--font-family-be_vietnam_pro);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+}
+
+.running-text-container {
+  align-items: flex-start;
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 33px 34px;
+  position: relative;
+  width: 1640px;
+}
+
+.running-text-frame {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 15px;
+  overflow: hidden;
+  position: relative;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.latest-donator {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.eclipse {
+  background-color: var(--white);
+  border-radius: 3px;
+  height: 6px;
+  min-width: 6px;
+  opacity: 0.3;
+  position: relative;
+}

@@ -1,0 +1,105 @@
+.dataDonatur-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.dataDonatur-text-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  position: relative;
+}
+
+.dataDonatur-text-header {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 964px;
+}
+
+.dataDonatur-text-paragraph {
+  width: 983px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: relative;
+}
+
+.table {
+  width: 1770px;
+  font-family: "Be Vietnam Pro", Helvetica;
+  border: 1px solid #eaecf0;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+
+th {
+  text-align: left;
+  color: rgba(145, 145, 145, 1);
+  background-color: #f9fafb;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  height: 44px;
+  padding-left: 12px;
+}
+
+th:nth-child(1) {
+  width: 22%;
+}
+
+th:nth-child(2) {
+  width: 31%;
+}
+
+th:nth-child(3) {
+  width: 15%;
+}
+
+th:nth-child(4) {
+  width: 15;
+}
+
+th:nth-child(5) {
+  width: 17%;
+}
+
+td {
+  text-align: left;
+  color: rgba(145, 145, 145, 1);
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  height: 100px;
+  padding-left: 12px;
+  border-top: 1px solid #eaecf0;
+}
+
+td:nth-child(1) {
+  color: black;
+}
+
+td:nth-child(2) {
+  color: black;
+}
+
+.table-container {
+  min-height: 1044px;
+}
+
+.arrow-group-1 {
+  align-items: center;
+  display: flex;
+  gap: 29px;
+  position: relative;
+}
+

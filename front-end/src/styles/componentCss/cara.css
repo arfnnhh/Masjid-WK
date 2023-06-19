@@ -1,0 +1,107 @@
+.cara-container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.cara-text-container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    position: relative;
+}
+
+.cara-text-header {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 964px;
+}
+
+.cara-text-paragraph {
+    width: 983px;
+    letter-spacing: 0;
+    line-height: 48px;
+    position: relative;
+}
+
+.cara-card-container {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-right: 60px;
+    gap: 70px;
+}
+
+.cara-card-frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    position: relative;
+    width: 900.31px;
+}
+
+.cara-card-inner-frame {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cara-card {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: white;
+    border-radius: 19.49px;
+    box-shadow: 0.97px 7.8px 58.47px #0000001a;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 40.73px 40.6px;
+    position: relative;
+    height: 250px;
+}
+
+.number {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+.cara-card-text {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 11.37px;
+    position: relative;
+}
+
+.cara-card-header {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.cara-card-paragraph {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 37.4px;
+    position: relative;
+}
+

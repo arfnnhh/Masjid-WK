@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:500,700,600,400|Epilogue:500|Inter:500,400');
+
+
+/* Variable */
+:root {
+    --black-2: rgba(0, 0, 0, 1);
+    --tangaroa: rgba(0, 30, 66, 1);
+    --eerie-black: rgba(24, 24, 24, 1);
+    --black: rgba(24, 31, 28, 1);
+    --bay-of-many: rgba(31, 57, 132, 0.149);
+    --main: rgba(31, 57, 132, 1);
+    --text: rgba(145, 145, 145, 1);
+    --mountain-mist-2: rgba(151, 151, 151, 1);
+    --mountain-mist: rgba(153, 153, 153, 1);
+    --gallery: rgba(234, 236, 240, 1);
+    --gallery-2: rgba(238, 238, 248, 1);
+    --white-lilac: rgba(248, 249, 251, 1);
+    --yellow-sunshine: rgba(255, 245, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxs: 14px;
+    --font-size-xs: 16px;
+    --font-size-s: 20px;
+    --font-size-m: 23.4px;
+    --font-size-l: 24px;
+    --font-size-xl: 30px;
+    --font-size-xxl: 64px;
+
+    --font-family-be_vietnam_pro: "Be Vietnam Pro";
+    --font-family-epilogue: "Epilogue";
+    --font-family-inter: "Inter";
+}
+/* Variable-End */
+
+/* Font class */
+.bevietnampro-bold-bay-of-many-36px {
+    color: var(--main);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-white-24px-2 {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-gray-23-4px {
+    color: var(--text);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-37px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 37.03px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-eerie-black-20-3px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 20.26px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-eerie-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-eerie-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-mountain-mist-23-4px {
+    color: var(--mountain-mist);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-gray-20px {
+    color: var(--text);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.epilogue-medium-eerie-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-epilogue);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-bay-of-many-64px {
+    color: var(--main);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-mountain-mist-16px {
+    color: var(--mountain-mist-2);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-eerie-black-31-2px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 31.18;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-medium-gray-14px {
+    color: var(--text);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-bold-white-64px {
+    color: var(--white);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bevietnampro-semi-bold-bay-of-many-32px {
+    color: var(--main);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bevietnampro-normal-grey-14px {
+    color: var(--text);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bevietnampro-medium-gray-30px {
+    color: var(--text);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bevietnampro-medium-yellow-sunshine-24px {
+    color: var(--yellow-sunshine);
+    font-family: var(--font-family-be_vietnam_pro);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+}
+/* Font class-End */
+
+* {
+    font-family: 'Be Vietnam Pro', Sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 54px;
+    margin-right: 54px;
+}
+
+
+

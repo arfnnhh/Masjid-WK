@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-text {
+    max-width: 700px; /* Adjust the value according to your needs */
+    word-wrap: break-word;
+}
+
+.header-text p {
+    font-size: 27px;
+    font-weight: 500;
+    color: #919191;
+}
+
+.header-text h3 {
+    color: #181F1C  ;
+    font-size: 59px;
+    margin-top: 25px;
+    word-spacing: 8px;
+    font-weight: 600;
+}
+
+.header-text span {
+    color: #1F3984;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.space-y-6 {
+    font-family: "Be Vietnam Pro", Helvetica;
+}
+
+.button-frame {
+    align-items: flex-start;
+    background-color: #1F3984;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 52px;
+    gap: 10px;
+    padding: 20px 32px;
+    position: relative;
+    width: fit-content;
+    /* max-height: 68px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-frame:hover {
+    opacity: 0.4;
+    transition: 0.3s ease-in-out;
+}
+
+.donasi-button {
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 27.6px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.header-image {
+    position: relative;
+    margin-top: 30px;
+    max-width: 430px;
+}
+
+.cards-container {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(-60%, -70%);
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    background-color: white;
+    padding: 11px;
+    border-radius: 10px;
+    box-shadow: 0.974474px 7.7958px 58.4685px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card1 img,
+.card2 img,
+.card3 img { 
+    width: 29px;
+    height: 29px;
+    align-self: center; /* Center vertically */
+    margin-right: 8px; /* Add some space between the image and paragraph */
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    font-size: 17px;
+    height: 40px; /* Adjust the value as needed */
+    max-width: 110px; /* Adjust the value according to your needs */
+    word-wrap: break-word;
+    font-weight: 400;
+    text-align: left;
+}

@@ -1,0 +1,156 @@
+.gallery-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.gallery-text-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  position: relative;
+}
+
+.gallery-text-header {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 964px;
+}
+
+.gallery-text-paragraph {
+  width: 983px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: relative;
+}
+
+.gallery-card-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 101.55px;
+  position: relative;
+  width: fit-content;
+}
+
+.gallery-card-frame {
+  align-items: flex-start;
+  display: flex;
+  gap: 100.82px;
+  position: relative;
+  width: fit-content;
+}
+
+.gallery-card-1 {
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 19.45px;
+  box-shadow: 0.99px 7.92px 59.38px #0000001a;
+  height: 658.19px;
+  min-width: 504.78px;
+  position: relative;
+}
+
+.gallery-card-2 {
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 19.45px;
+  box-shadow: 0.99px 7.92px 59.38px #0000001a;
+  height: 658.19px;
+  min-width: 504.78px;
+  position: relative;
+}
+
+.gallery-card-3 {
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 19.45px;
+  box-shadow: 0.99px 7.92px 59.38px #0000001a;
+  height: 658.19px;
+  min-width: 504.78px;
+  position: relative;
+}
+
+.gallery-card-4 {
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 19.45px;
+  box-shadow: 0.99px 7.92px 59.38px #0000001a;
+  height: 658.19px;
+  min-width: 504.78px;
+  position: relative;
+}
+
+.gallery-card-5 {
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 19.45px;
+  box-shadow: 0.99px 7.92px 59.38px #0000001a;
+  height: 658.19px;
+  min-width: 504.78px;
+  position: relative;
+}
+
+.gallery-card-open-frame {
+  background-color: rgba(31, 57, 132, 1);
+  border-radius: 19.45px;
+  box-shadow: 0.99px 7.92px 59.38px #0000001a;
+  height: 658.19px;
+  min-width: 504.78px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-card-open-container {
+  align-items: flex-start;
+  display: flex;
+  height: 164px;
+  justify-content: flex-end;
+  left: 115px;
+  min-width: 176px;
+  position: relative;
+  top: 197px;
+}
+
+.gallery-card-open {
+  height: 137px;
+  margin-top: 80px;
+  position: relative;
+  width: 179px;
+  margin-right: 273.88px;
+}
+
+.gallery-card-open-text {
+  color: white;
+  font-family: "Be Vietnam Pro", Helvetica;
+  font-size: 31.1px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 98px;
+}
+
+.gallery-card-open-arrow {
+  height: 99px;
+  left: 40px;
+  position: absolute;
+  top: 0;
+  width: 99px;
+}
